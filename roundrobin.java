@@ -14,12 +14,12 @@ public class roundrobin{
        System.out.println("Morning Session Matches:");
        for(int i=0;i<MorningTeams.size();i++)
        {
-        System.out.println(MorningTeams.get(i)+"vs"+MorningTeams.get((i+1)%MorningTeams.size()));
+        System.out.println(MorningTeams.get(i)+" "+vs"+" "+MorningTeams.get((i+1)%MorningTeams.size()));
        }
        System.out.println("Evening Session Matches:");
        for(int i=0;i<EveningTeams.size();i++)
        {
-        System.out.println(EveningTeams.get(i)+"vs"+EveningTeams.get((i+1)%EveningTeams.size()));
+        System.out.println(EveningTeams.get(i)+" "+vs"+" "+EveningTeams.get((i+1)%EveningTeams.size()));
        }
 
 

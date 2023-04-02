@@ -30,7 +30,7 @@ class schedule{
         ArrayList<String> matches=new ArrayList<>();
          for(int i=0;i<team_num;i++){
             for(int j=i+1;j<team_num;j++){
-                matches.add(arr.get(i)+"vs"+arr.get(j));
+                matches.add(arr.get(i)+" "+"vs"+" "+arr.get(j));
             }
          }
          return matches;
